@@ -1,0 +1,5 @@
+<launch>
+  <node name="gridmap_node" pkg="gridmap" type="gridmap_node" output="screen">
+     <param name = "w_filename" type="string" value="/home/jc/Mapdata/040702.txt"/>
+  </node>
+</launch>
